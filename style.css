@@ -5,8 +5,10 @@
 font-family: 'Work Sans', sans-serif;
 }
 .nav-title{
-  display:inline-flex;
+  display:grid;
   gap:20px;
+  grid-template-columns:repeat(2,1fr);
+  
 
 }
 .head-pink{
@@ -25,11 +27,11 @@ nav{
 height: 130px;
 background: #FFF;
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+align-items:center;
 }
 
 nav ul{
   display:flex;
-  
 }
 nav li{
   list-style:none;
@@ -38,6 +40,13 @@ nav li{
 }
 nav a{
   text-decoration:none;
+}
+.iicon{
+  padding-top:1.1rem;
+}
+#id{
+  color: red;
+  margin-left:3px;
 }
 .h33{
 color: #0B0223;
@@ -71,13 +80,13 @@ border:none;
 }
 .banner{
   width:100%;
-  height:800px;
+  height:900px;
   display:flex;
   justify-content: space-evenly;
   gap:5px;
 }
 .banner-description{
-  width: 700px;
+  width:900px;
   height: 700px;
   background:url(/images/Group\ 14.png) ;
   text-align: center;
@@ -103,8 +112,11 @@ font-weight: 700;
 }
 .b2img{
   display:flex;
-  justify-content:space-evenly;
-  gap:10px;
+justify-content:space-evenly;
+}
+.banner2{
+  width:100%;
+  height:700px;
 }
 /* banner 3 */
 .b3h3{
@@ -117,7 +129,7 @@ font-weight: 700;
 .bannerx{
   display:flex;
   height:500px;
-  width:100%;
+  width:90%;
   margin-top:7px;
 }
 .headingg{
@@ -137,12 +149,26 @@ background-clip: text;
 
 }
 .btn-primary11{
-  padding: 21px 40px;
-  border-radius: 48px;
+  padding: 21px 48px;
+  border-radius: 28px;
   background: #FF42A5;
   border:none;
-  align-items: flex-start;
-  margin-left:480px;
+  margin-left:360px;
+}
+.ss {
+  width: 200px;
+height:36px;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+text-align: center;
+padding-top:12px;
+margin-bottom:10px;
+}
+.aaa{
+  padding-top:11px;
+}
+.bbb{
+  padding-top:11px;
 }
 .elipsis{
   color: #534C64;
@@ -165,6 +191,7 @@ font-weight: 700;
 }
 .b3description{
   text-align:center;
+  padding-top:120px;
 }
 .b3img{
 
@@ -204,15 +231,23 @@ font-weight: 700;
   bottom:280px;
   left:550px;
 }
+.b4description{
+  text-align:center;
+  padding-top:120px;
+}
 /* banner 5 */
 .banner5{
   background-color: #F948B2;
-  height:550px;
+  height:700px;
   width:100%;
   margin-top:10px;
   display:flex;
-  justify-content: space-between;
-  padding-left: 40px;
+  justify-content:space-between;
+  margin-left: 7px;
+  padding-left: 20px;
+}
+.b5des{
+  margin-left:50px;
 }
 .b5h3{
   color: #FFF;
@@ -241,27 +276,43 @@ color: #FF42A5;
 }
 .banner6{
   margin-top:5px;
-  height:150px;
+  height:250px;
   width:100%;
   display:grid;
   grid-template-columns: repeat(5,1fr);
-  align-items: center;
+  align-items:center;
   margin-left:80px;
   margin-right:80px;
 }
-.icn-para, .p ,img{
+.icn3-para{
+  display:flex;
+  width:180px;
+  height:60px;
+border-radius: 50px;
+background: #FFF;
+border:1px solid #FF42A5;
+}
+.icn-para,.p{
   display:flex;
 }
-.icn-para:hover{
-  border-radius:50px;
+.icn-pera:hover{
+  width:213px;
+  height:60px;
+  border-radius: 40px;
   background: #FFF;
- 
+  border:2px solid rgba(8, 111, 190, 0.733);
+}
+.arcade{
+font-size:1rem;
+font-weight: 400;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 footer{
   width:100%;
   height: 550px;  
   background: #0B0223;
-
 }
 .iconf{
   display:flex;
@@ -292,6 +343,10 @@ footer{
 .filogo{
   color: #FFF;
 }
+.iconf{
+  gap:10px;
+}
+ 
 .filogo,.p{
   display:flex;
   justify-content: center;
@@ -314,6 +369,36 @@ footer{
 text-align: center;
 font-size: 16px;
 font-weight: 500;
+}
+.newwimg{
+padding-top:35px;
+}
+.img3
+{
+ background:url(/images/Rectangle\ 7.png);
+ background-repeat: no-repeat;
+ width:342px;
+ height:400px;
+}
+.pnew{
+  padding-top: 176px;
+  padding-left:25px;
+}
+.description{
+ width:550px;
+ height:600px;
+}
+.arcd{
+  text-align: center;
+  padding-top:160px;
+}
+#playb{
+  height:50px;
+  width:40px;
+  color:#de0b8a;
+}
+.ancr{
+  color:#F948B2;
 }
 @media screen and (max-width:576px)
 {
