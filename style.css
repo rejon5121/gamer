@@ -402,13 +402,32 @@ padding-top:35px;
 }
 @media screen and (max-width:576px)
 {
-  header{
-    padding:20px;
-  }
   nav{
 flex-direction:column;
   }
-  .banner-graphics,.banner-description{
+  .bannerx,.banner-graphics,.banner-description{
+    flex-direction:column;
+  }
+  .banner-graphics ,.b2img,{
+    display:grid;
+    grid-template-columns:(1,1fr) ;
+  }
+
+  footer{
+    height:auto;
+  }
+  .listitem{
+    display:grid;
+    grid-template-columns:(1,1fr) ;
+   
+  }
+  .icn-para{
+    display:grid;
+    grid-template-columns:(1,1fr) ;
+  }
+  .banner6{
+    width:400px;
+    height:700px;
     flex-direction:column;
   }
 }
