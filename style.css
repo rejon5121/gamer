@@ -375,7 +375,7 @@ padding-top:35px;
 }
 .img3
 {
- background:url(/images/Rectangle\ 7.png);
+ background-image:url("/images/Rectangle\ 7.png");
  background-repeat: no-repeat;
  width:342px;
  height:400px;
